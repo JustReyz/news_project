@@ -32,7 +32,7 @@ class NewsApiService {
 Replace "YOUR_NEWS_API_KEY" with your actual key from NewsAPI.org.
 
 
-▶️ How to Run
+## ▶️ How to Run
 1. Clone this repository:
 ```
 git clone https://github.com/yourusername/news_app.git
@@ -48,5 +48,5 @@ flutter run
 ```
 
 
-📄 License
+## 📄 License
 This project is for educational purposes. Feel free to modify and expand.
