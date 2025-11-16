@@ -35,8 +35,8 @@ Replace "YOUR_NEWS_API_KEY" with your actual key from NewsAPI.org.
 ## ▶️ How to Run
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/news_app.git
-cd news_app
+git clone https://github.com/JustReyz/news_project.git
+cd news_project
 ```
 2. Install dependencies:
 ```
