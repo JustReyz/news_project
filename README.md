@@ -1,16 +1,52 @@
-# untitled9
+# 📱 News App Project
 
-A new Flutter project.
+Flutter Based Project with [NewsAPI.org](https://newsapi.org)
 
-## Getting Started
+## 🚀 Overview
+A simple Flutter application that fetches and displays the latest news articles using the NewsAPI.org service.  
+This project demonstrates integration of REST API with Flutter, state management, and clean architecture.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Requirements
+- Flutter & Dart SDK (sdk: ^3.9.0 or above)
+- NewsAPI.org account (for API key)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔑 Setup API Key
+You must add your **NewsAPI key** in the file:
+
+`lib/services/news_api_service.dart`  
+**Line 8**:
+
+```dart
+class NewsApiService {
+  static const String _baseUrl = 'https://newsapi.org/v2';
+  
+  static const String _apiKey = 'YOUR_API_KEY_HERE'; // Replace with your NewsAPI key
+  ...
+  ...
+}
+```
+Replace "YOUR_NEWS_API_KEY" with your actual key from NewsAPI.org.
+
+
+▶️ How to Run
+1. Clone this repository:
+```
+git clone https://github.com/yourusername/news_app.git
+cd news_app
+```
+2. Install dependencies:
+```
+flutter pub get
+```
+3. Run the app:
+```
+flutter run
+```
+
+
+📄 License
+This project is for educational purposes. Feel free to modify and expand.
